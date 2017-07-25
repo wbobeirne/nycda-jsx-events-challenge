@@ -35,15 +35,9 @@ body {
 	transition: 100ms ease;
 }
 
-.Button-loader,
-.Button-checkmark {
-	display: inline-block;
-	margin-right: 8px;
-}
-
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
 }
 
 .Button.is-loading {
@@ -55,6 +49,7 @@ body {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
+	margin-right: 14px;
 }
 .Button-loader:after {
 	content: "";
@@ -69,8 +64,12 @@ body {
 	animation: spin 500ms ease-in-out infinite;
 }
 
-.Button.is-succesful {
+.Button.is-successful {
 	background: #2ecc71;
+}
+.Button-checkmark {
+	display: inline-block;
+	margin-right: 6px;
 }
 .Button-checkmark:after {
 	content: "\2713";

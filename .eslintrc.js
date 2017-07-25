@@ -73,7 +73,7 @@ const eslintConf = {
 		"no-multi-assign": SEV1,
 		"no-case-declarations": SEV1,
 		"comma-dangle": [SEV3, "always-multiline"],
-		"no-underscore-dangle": [SEV2, { allowAfterThis: false }],
+		"no-underscore-dangle": [SEV2, { allowAfterThis: true }],
 		"no-func-assign": SEV1,
 		"no-class-assign": SEV1,
 		"max-statements-per-line": [SEV1, { max: 1 }],
