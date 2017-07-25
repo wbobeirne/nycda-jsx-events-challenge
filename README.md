@@ -16,6 +16,8 @@ don't jump ahead! You might be lost otherwise.
 
 Your final output should look like:
 
+![](screenshots/buttons.png)
+
 ## 2) JSX Events Challenge
 
 * Remove the hard-coded `isLoading` and `isSuccesful` buttons so you only have 1
@@ -28,3 +30,5 @@ button isn't loading or disabled
 and pass that state as props to the first button.
 
 Your final output should look like:
+
+![](screenshots/button-load.gif)
